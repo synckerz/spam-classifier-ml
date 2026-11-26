@@ -1,0 +1,27 @@
+SMS Spam Classifier - Evaluation Results
+
+Dataset size: 5,572 messages
+Ham messages: 4,825
+Spam messages: 747
+
+Training messages: 4,457
+Testing messages: 1,115
+
+Accuracy:  0.9874 (98.74%)
+Precision: 0.9856 (98.56%)
+Recall:    0.9195 (91.95%)
+
+Confusion Matrix (actual rows: Not Spam, Spam; predicted columns: Not Spam, Spam)
+
+[[964   2]
+ [ 12 137]]
+
+True Negative (TN): 964
+False Positive (FP): 2
+False Negative (FN): 12
+True Positive (TP): 137
+
+Correct predictions: 1,101
+Incorrect predictions: 14
+
+Note: These are the results from the recorded execution shared during the project work.
